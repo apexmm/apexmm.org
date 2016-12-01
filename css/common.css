@@ -1,0 +1,54 @@
+body {padding:0px;margin:0px;font-family:'Lato', sans-serif;position:relative;background:url('../images/pattern.png');}
+a{outline: none;}
+.clear{clear:both;}
+.navbar{padding: 5px 0px;}
+.navbar-header{width:322px;}
+#myNavbar ul{padding: 5px 0px 5px 3%;}
+.navbar-nav > li  a{font-weight:bold;}
+.navbar-inverse {background: rgba(49, 112, 143, 0.9);}
+.navbar-inverse .navbar-nav > li > a {color: #edeeef;padding-top:10px;padding-bottom:10px;}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover{background-color: #084B04; border-radius: 5px; }
+nav .navbar-header a img{width:100%;height:auto;}
+.internalPageContainer{padding-top:60px;}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {width: 100%;margin: auto;}
+.noticeBoard ul{list-style-type: none;}
+.noticeBoard ul li {display: inline;}
+.noticeBoard.container-fluid{padding-left:0px;padding-right:0px;}
+.hrLine{height:1px;background-color:#435;}
+.hrLine2{height:1px;background-color:#F6F306;}
+.success-stories h3{font-size: 21px;color: #0A1D6C;margin-top: 10px;}
+.success-stories h4{font-size: 24px;margin:0px;}
+.success-stories p{color:#AD0B33;}
+.success-stories a{color:#F6F306;position:absolute;right:15px;top:15px;}
+.posRel{position:relative;}
+table{width:100%;}
+th,td{text-align:center;padding:5px;box-shadow: 0 0 1px #000;}
+th{background:#3E8F3E;color:#FFF;padding:5px;}
+tr:nth-child(even) {background: #C4E4A1;}
+tr:nth-child(odd) {background: #DCF7C8;}
+#aboutUs, #footer, #admission, #TeachersRecruitment, #faq, #download, #ViewGallery, #contactUs, #facultyID, #apexFiesta{background-color:#FFF;border-radius:3px;margin-bottom:4px;}
+.picsCol, .videosCol{width:218px;float:left;margin: 5px;cursor:pointer;}
+
+.header-image{margin-top: 10px;}
+.header-image img{width: 100%;}
+h1{text-transform:uppercase;font-weight:bold;color:#a94442;}
+@media (min-width: 768px) and (max-width: 1112px) {
+	#myNavbar ul{padding-left:0%;}
+	.internalPageContainer{padding-top:110px;}
+}
+@media (max-width: 767px) {
+	.navLogHeader{float:left;width:320px;}
+	.navButtonHear{width:45px;float:right;}
+	.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header{width: 100%;margin:0 auto;}
+	.navButtonHear button{margin:8px 0;}
+    .header-image {margin-top: 5px;}
+}
+@media (max-width: 410px) {
+	.navLogHeader{float:left;width:250px;}
+	.navButtonHear button{margin:2px 0;}
+	.internalPageContainer{padding-top:48px;}
+}
+@media (max-width: 333px) {
+	.navLogHeader{float:left;width:200px;}
+	.navButtonHear button{margin:0px 0;}
+}

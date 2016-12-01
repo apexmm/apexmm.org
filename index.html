@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+	<title>Welcome to APS</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="alexaVerifyID" content="VOrjNTPL-LOHQH4--iBDlHfsym8"/>
+	<meta name="description" content="Apex Public School, Marang Marcha was established on 3rd October 2014. The school aims at giving a qualitatively high standard of education which would develop the student innate potential to the fullest. The school is a co-educational english medium School">
+	<meta name="keywords" content="apex, Apex Public School, Apex Public School Marang Marcha, Marang Marcha, school, Ramgarh, best school in jharkhand, APEX Fiesta, best school in ramgarh, apex fiesta 2017, admission, quiz competition">
+	<meta name="author" content="Bhagirat Kumar">
+	<link rel="icon" type="image/png" href="images/APS_Favicon.png" title="APS Favicon" alt="APS Favicon" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/common.css" />	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-route.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>   		
+	<script src="javascript/jquery.page-functionality.js"></script>
+	<script src="javascript/angular.aps.js"></script>
+	<base href="/">
+</head>
+<body ng-app="myApp">
+	<header>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<div class="navLogHeader">
+						<a href="/"><img src="images/APEX_LOGO.png" alt="APS LOGO" title="APS Logo Area" /></a>
+					</div>
+					<div class="navButtonHear">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>                        
+						</button>
+					</div>
+				</div>
+				<div>
+					<div class="collapse navbar-collapse" id="myNavbar">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="/">Home</a></li>
+							<li><a href="/about-us">About Us</a></li>
+							<li><a href="/admission">Admission</a></li>
+							<li><a href="/gallery">Gallery</a></li>
+							<li><a href="/contact-us">Contact Us</a></li>
+							<li><a href="/download">Download</a></li>
+							<li><a href="/faq">Faq</a></li>
+							<li><a href="/apex-fiesta">Apex Fiesta</a></li>	
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>		
+	</header>
+	<section class="internalPageContainer" ng-controller="myController">
+		<div ng-view></div>
+	</section>
+	<footer class="">
+		<div class="alert alert-danger container text-center"><p>All rights reserved © Apex Public School, Marang Marcha 2016</p></div>
+	</footer>  
+</body>
+</html>
