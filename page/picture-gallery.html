@@ -1,0 +1,12 @@
+<section id="pictureGallery" class="container">	
+    <div class="textContainer">				
+        <div class="pictureGallery">
+            <h1>Picture Gallery</h1>
+            <div ng-repeat="image in imgContainer" class="picsCol myPicsId thumbnail"><img src="images/thumbnail/{{image.imgno}}.jpg" />
+            <div class="caption">
+                <p>{{image.text}}</p>
+            </div>
+            </div>
+        </div>        
+    </div>
+</section>

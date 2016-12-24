@@ -22,4 +22,29 @@ $(document).ready(function(){
         $('.navbar-toggle').removeClass('collapsed').addClass('collapsed');
         $('.navbar-collapse').removeClass('in');		
     });
+    
+    /** Google Map Functionality*/
+    function myMap() {
+        var myCenter = new google.maps.LatLng(23.563310,85.689203);
+        var mapCanvas = document.getElementById("map");
+        var mapOptions = {center: myCenter, zoom: 11};
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+        var marker = new google.maps.Marker({position:myCenter});
+        marker.setMap(map);
+
+        var infowindow = new google.maps.InfoWindow({
+            content: "Apex Public School"
+        });
+        infowindow.open(map,marker);
+    }
+    window.onload=myMap;
+    
+    /**  Facebook ***/
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=1636266909988633";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
 });

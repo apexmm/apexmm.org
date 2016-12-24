@@ -1,0 +1,14 @@
+<section id="videoGallery" class="container">	
+    <div class="textContainer">				
+        <div class="videoGallery">
+            <h1>Picture Gallery</h1>
+            <a href="https://www.youtube.com/watch?v={{video.vs}}" target="_blank" ng-repeat="video in videoContainer">
+                <div  class="picsCol myPicsId thumbnail"><img src="images/thumbnail/v{{video.sn}}.jpg" />
+                <div class="caption">
+                    <p>{{image.text}}</p>
+                </div>
+                </div>
+            </a>
+        </div>        
+    </div>
+</section>
