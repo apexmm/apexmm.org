@@ -29,9 +29,10 @@ apsApp.config(function($routeProvider,$locationProvider){
 apsApp.controller('myController',function($scope){
 	
 	/* School Notice Bord */
-	$scope.notice=['Admissions open for session 2017-18.',
-                   'Required english & Science teacher for session 2017-18.',
-				'The School timings will be 8:00 am to 1:30 pm from November 10 2016.'];
+	$scope.notice=['Annual examination 2016-2017 will start from March 3, 2017.',
+		       'Distribution of admit card will start from February 15, 2017.',
+		       'Wish you all Happy New Year 2017.',
+                   'Required english & Science teacher for session 2017-18.'];
 	
 	/* End School Notice Bord */
 	
