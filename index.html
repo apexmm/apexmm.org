@@ -17,85 +17,17 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-route.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
     <script src="javascript/jquery.page-functionality.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8C9uwKtM6ikSICjOTxfBo2lcNJ8hhXPs"></script>.
-	<script src="javascript/angular.aps.js"></script>
+    <script src="javascript/angular.aps.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8C9uwKtM6ikSICjOTxfBo2lcNJ8hhXPs"></script>	
 	<base href="/">
 </head>
 <body ng-app="myApp">
-	<header>
-		<nav class="navbar navbar-inverse navbar-fixed-top">
-			<div class="container">
-				<div class="navbar-header">
-					<div class="navLogHeader">
-						<a href="/"><img src="images/APEX_LOGO.png" alt="APS LOGO" title="APS Logo Area" /></a>
-					</div>
-					<div class="navButtonHear">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>                        
-						</button>
-					</div>
-				</div>
-				<div>
-					<div class="collapse navbar-collapse" id="myNavbar">
-						<ul class="nav navbar-nav">
-							<li class="active"><a href="/">Home</a></li>
-							<li><a href="/about-us">About Us</a></li>
-							<li><a href="/admission">Admission</a></li>
-							<li><a href="/contact-us">Contact Us</a></li>
-							<li><a href="/download">Download</a></li>
-							<li><a href="/faq">Faq</a></li>
-							<li><a href="/apex-fiesta">Apex Fiesta</a></li>	
-						</ul>
-					</div>
-				</div>
-			</div>
-		</nav>		
-	</header>
+	<div data-ng-include="'page/header.html'"></div>
 	<section class="internalPageContainer" ng-controller="myController">
 		<div ng-view></div>
 	</section>
-	<footer>		
-        <div class="quickLink">
-            <div class="container">
-                <div class="col-sm-3">
-                    <a href="/about-us">About APS</a>
-                    <a href="/admission">Admission</a>
-                    <a href="/contact-us">Contact US</a>
-                </div>
-                <div class="col-sm-3">
-                    <a href="/picture-gallery">Picture Gallery</a>
-                    <a href="/video-gallery">Video Gallery</a>
-                    <a href="/media-corner">Media Corner</a>
-                </div>
-                <div class="col-sm-3">
-                    <div class="fb-like" data-href="https://www.facebook.com/APSMM2014/" data-width="280" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
-                    <div id="fb-root"></div>
-                </div>
-                <div class="col-sm-3">
-                    <div id="map"></div>
-                </div>
-            </div>
-        </div>
-        <div class="copyRight container">
-            <div class="col-sm-6">
-                <p>© 2016-2017 Apex Public School, Marang Marcha | All Right Reserved.</p>
-            </div>
-            <div class="col-sm-6 text-right">
-                <p>Website Design & Developed by Bhagirath Kumar</p>
-            </div>
-            <div class="clear"></div>
-        </div>
-	</footer>
-	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	
-	  	ga('create', 'UA-89424846-1', 'auto');
-	  	ga('send', 'pageview');
-	</script>
+    <div ng-include="'page/footer.html'"></div>
+    <div ng-include="'page/popups.html'"></div>	
+    <div ng-include="'page/tracking.html'"></div>
 </body>
 </html>

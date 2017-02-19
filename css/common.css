@@ -2,16 +2,23 @@ body {padding:0px;margin:0px;font-family:'Roboto', sans-serif;position:relative;
 a{outline: none;}
 .clear{clear:both;}
 p{font-size: 15px;}
-.navbar{padding: 5px 0px;background:url('../images/menu-bg.jpg') repeat-x #EBA426;background-size: auto 100%;}
+.navbar{padding: 5px 0px;/*background:url('../images/menu-bg.jpg') repeat-x #EBA426;background-size: auto 100%;*/background-color: #4caf50;}
 .navbar-header{width:322px;}
 #myNavbar ul{padding: 5px 0px 5px 3%;}
 .navbar-inverse .navbar-nav > li > a {color: #edeeef;padding-top:10px;padding-bottom:10px;}
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover{background-color: #084B04; border-radius: 5px; }
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover{background-color: #8bc34a; border-radius: 5px; }
 nav .navbar-header a img{width:100%;height:auto;}
-.internalPageContainer{padding-top:40px;}
+.internalPageContainer{padding-top:60px;}
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {width: 100%;margin: auto;}
 
-.internalPageContainer, .homePage{background:url('../images/inner-bg.jpg') center repeat-x;background-size: auto 100%;}
+.internalPageContainer, .homePage{
+    /*background:url('../images/inner-bg.jpg') center repeat-x;background-size: auto 100%;*/
+    background: #54bd58; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#54bd58, #F7B23A); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#54bd58, #F7B23A); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#54bd58, #F7B23A); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#54bd58, #F7B23A); /* Standard syntax (must be last) */
+}
 .homePage .container{padding-top: 15px;}
 #newsUpdate{width: 100%;display: block;background: #EBA426;padding: 5px 0;border-top: 1px solid #FFF;border-bottom: 1px solid #fff;}
 
@@ -48,10 +55,10 @@ box-shadow: 1px 1px 1px 1px rgba(120,43,43,1);}
 .posRel{position:relative;}
 table{width:100%;}
 th,td{text-align:center;padding:5px;box-shadow: 0 0 1px #000;}
-th{background:#3E8F3E;color:#FFF;padding:5px;}
+th{background:#3E8F3E;color:#286090;padding:5px;}
 tr:nth-child(even) {background: #C4E4A1;}
 tr:nth-child(odd) {background: #DCF7C8;}
-#aboutUs, #footer, #admission, #TeachersRecruitment, #faq, #download, #ViewGallery, #contactUs, #facultyID, #apexFiesta, #pictureGallery, #videoGallery{background-color:#FFF;border-radius:3px;margin-bottom:4px;}
+#aboutUs, #footer, #admission, #TeachersRecruitment, #faq, #download, #ViewGallery, #contactUs, #facultyID, #apexFiesta, #pictureGallery, #videoGallery,#aps-family{background-color:#FFF;border-radius:3px;margin-bottom:4px;}
 .picsCol, .videosCol{width:218px;float:left;margin: 5px;cursor:pointer;}
 
 .header-image{margin-top: 10px;}
@@ -59,6 +66,14 @@ tr:nth-child(odd) {background: #DCF7C8;}
 h1{text-transform:uppercase;font-weight:bold;color:#a94442;}
 .thumbnail .caption {color: #00549c;background: #dff0d8;}
 .thumbnail .caption p{margin: 0px;}
+
+#popup{position:fixed;width:100%;height:100%;background:#ccc;opacity: 1;margin:0px;padding:0px;display: none;z-index: 100;}
+#popupContainer{max-width:500px; width:94%; position: fixed;top: 50%; left: 50%;-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%);border: 1px solid black;margin:5px;background:#ffeb3b;}
+.closeid p{ float: right; margin: 0px; padding: 4px;font-size: 25px; font-weight: bold; color: #F44336;cursor: pointer;}
+.popText{background:#03A9F4;}
+.popText h4{margin: 0px;font-size: 35px;padding: 20px;color: #fff;text-align: center;}
+.cross{float:left;}
+
 @media (min-width: 768px) and (max-width: 1112px) {
 	#myNavbar ul{padding-left:0%;}
 	.internalPageContainer{padding-top:110px;}
@@ -81,7 +96,7 @@ h1{text-transform:uppercase;font-weight:bold;color:#a94442;}
 	.internalPageContainer{padding-top:30px;}
     .picsCol, .videosCol{width:97%;float:none;cursor:pointer;}
     .picsCol img, .videosCol img{width:100%;height: auto;}
-    
+    .popText h4{font-size: 25px;}
 }
 @media (max-width: 333px) {
 	.navLogHeader{float:left;width:200px;}

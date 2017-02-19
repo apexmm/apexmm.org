@@ -22,11 +22,24 @@ apsApp.config(function($routeProvider,$locationProvider){
         templateUrl : "page/video-gallery.html"
     }).when("/media-corner", {
         templateUrl : "page/media-corner.html"
+    }).when("/aps-family", {
+        templateUrl : "page/aps-family.html"
+    }).when("/events-and-activities", {
+        templateUrl : "page/events-and-activities.html"
     }).otherwise({
 		redirectTo:"/"
 	});
+    
 });
-apsApp.controller('myController',function($scope){
+apsApp.run(function($rootScope,$location){
+	$rootScope.$on('$routeChangeSuccess', function(next,current) { 
+		if($location.path()=='/events-and-activities')
+			{
+			
+			}
+		 });
+});
+apsApp.controller('myController',function($scope, $http){
 	
 	/* School Notice Bord */
 	$scope.notice=['Annual examination 2016-2017 will start from March 3, 2017.',
@@ -63,4 +76,24 @@ apsApp.controller('myController',function($scope){
 		{sn:1,vs:'lEBOY31yuw8',text:''}
 	];
 	/* End School Gallary */
+    
+    /* APS Family details */
+    $http.get("data/aps-bod-details.json")
+    .then(function(response) {
+        $scope.apsFamilyDetails = response.data;
+    },function(response) {
+        $scope.content = "Something went wrong !!!";
+        alert($scope.content);
+    });
+    /* End APS Family details */
+    
+    /* APS Event details */
+    $http.get("data/aps-event-2016-17.json")
+    .then(function(response) {
+        $scope.eventList2016 = response.data;
+    },function(response) {
+        $scope.error = "Something went wrong !!!";
+        alert($scope.content);
+    });
+    /* End APS Event details */
 });
