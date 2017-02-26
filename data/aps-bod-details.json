@@ -1,31 +1,81 @@
 [
     {
-        "name":"Bhagirat Kumar",
+        "name":"Bhagirath Kumar",
         "image":"images/aps-family/bhagirath-kumar.jpg",
         "qualification":"Master in Computer Application(MCA)",
         "designation":"Director",
         "category":"OBC",
         "email":"bhagirathrajrappa@gmail.com"
     },{
-        "name":"Bhagirat Kumar",
-        "image":"images/aps-family/bhagirath-kumar.jpg",
-        "qualification":"Master in Computer Application(MCA)",
-        "designation":"Director",
+        "name":"Kuldip Kumar",
+        "image":" ",
+        "qualification":"P.G.,B.Ed",
+        "designation":"Vice Principal",
         "category":"OBC",
-        "email":"bhagirathrajrappa@gmail.com"
+        "email":"kumarkuldip11@gmail.com"
     },{
-        "name":"Bhagirat Kumar",
-        "image":"images/aps-family/bhagirath-kumar.jpg",
-        "qualification":"Master in Computer Application(MCA)",
-        "designation":"Director",
+        "name":"Pratibha Kumari",
+        "image":" ",
+        "qualification":"P.G., B.Ed.",
+        "designation":"Teacher",
         "category":"OBC",
-        "email":"bhagirathrajrappa@gmail.com"
+        "email":" "
     },{
-        "name":"Bhagirat Kumar",
-        "image":"images/aps-family/bhagirath-kumar.jpg",
-        "qualification":"Master in Computer Application(MCA)",
-        "designation":"Director",
+        "name":"Punam Devi",
+        "image":""
+        "qualification":"B.A.",
+        "designation":"Teacher",
+        "category":" ",
+        "email":"punamsinghmukesh@gmail.com"
+    },{
+        "name":"Arti Kumari",
+        "image":"",
+        "qualification":"B.A.,PTT",
+        "designationation":"Teacher",
         "category":"OBC",
-        "email":"bhagirathrajrappa@gmail.com"
-    }
-]
+        "email":" ",
+     },{
+         "name":"Santosh Kumar Thakur",
+         "image":"",
+         "qualification":"B.Sc.",
+         "designation":"Teacher",
+         "category":" ",
+         "email":"",
+     },{
+         "name":"Lankesh Kumar Mahto",
+         "image":"",
+         "qualification":"B.Sc.",
+         "designation":"Teacher",
+         "category":"OBC",
+         "email":"lankeshmahto11@gmail.com",
+     },{
+         "name":"Rupa Kumari Agrawal",
+         "image":"",
+         "qualification":"B.A.",
+         "designation":"Teacher",
+         "category":"",
+         "email":"kumarirupaagrawal@gmail.com",
+     },{
+         "name":"Priyanka Kumari",
+         "image":"",
+         "qualification":"M.Com.",
+         "designation":"Teacher",
+         "category":"OBC",
+         "email":"priyankanagesh23@gmail.com",
+     },{
+         "name":"Gulshan Khatun",
+         "image":"",
+         "qualification":"B.A.",
+         "designation":"Teacher",
+         "category":"",
+         "email":"",
+     },{
+         "name":"Rohit Kumar Mahto",
+         "image":"",
+         "qualification":"Intermediate",
+         "designation":"Clerk",
+         "category":"OBC",
+         "email":"rohitkr.mahto00892@gmail.com",
+     }
+         
+   ]
