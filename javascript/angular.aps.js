@@ -82,7 +82,7 @@ apsApp.controller('myController',function($scope, $http){
     .then(function(response) {
         $scope.apsFamilyDetails = response.data;
     },function(response) {
-        $scope.content = "Something went wrong !!!";
+        $scope.content = "Something went wrong in in APS family data!!!";
         alert($scope.content);
     });
     /* End APS Family details */
@@ -92,7 +92,7 @@ apsApp.controller('myController',function($scope, $http){
     .then(function(response) {
         $scope.eventList2016 = response.data;
     },function(response) {
-        $scope.error = "Something went wrong !!!";
+        $scope.error = "Something went wrong in Event section !!!";
         alert($scope.content);
     });
     /* End APS Event details */
