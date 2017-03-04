@@ -8,7 +8,7 @@
         "email":"bhagirathrajrappa@gmail.com"
     },{
         "name":"Kuldip Kumar",
-        "image":"images/aps-family/image-upload.jpg",
+        "image":"images/aps-family/Kuldip.jpg",
         "qualification":"P.G.,B.Ed",
         "designation":"Vice Principal",
         "category":"OBC",
@@ -22,10 +22,10 @@
         "email":" "
     },{
         "name":"Punam Devi",
-        "image":"images/aps-family/image-upload.jpg",
+        "image":"images/aps-family/punam.jpg",
         "qualification":"B.A.",
         "designation":"Teacher",
-        "category":"",
+        "category":"GEN",
         "email":"punamsinghmukesh@gmail.com"
     },{
         "name":"Arti Kumari",
@@ -43,7 +43,7 @@
          "email":""
      },{
          "name":"Lankesh Kumar Mahto",
-         "image":"images/aps-family/image-upload.jpg",
+         "image":"images/aps-family/lankesh.jpg",
          "qualification":"B.Sc.",
          "designation":"Teacher",
          "category":"OBC",
@@ -53,11 +53,11 @@
          "image":"images/aps-family/image-upload.jpg",
          "qualification":"B.A.",
          "designation":"Teacher",
-         "category":"",
+         "category":"GEN",
          "email":"kumarirupaagrawal@gmail.com"
      },{
          "name":"Priyanka Kumari",
-         "image":"images/aps-family/image-upload.jpg",
+         "image":"images/aps-family/PRIYANKA.jpg",
          "qualification":"M.Com.",
          "designation":"Teacher",
          "category":"OBC",
