@@ -1,37 +1,38 @@
 <section id="aps-family" class="container">
     <div class="row">
         <div class="col-sm-6" data-ng-repeat="data in apsFamilyDetails">
-            <div class="table-responsive">   
-                <table class="table table-hover">
-                    <tr>
-                        <td rowspan="6"><img src="{{data.image}}" alt="{{data.name}}" title="{{data.name}}" class="img-thumbnail" width="170px" height="190px"/></td>
-                    </tr>
-                    <tr class="warning">
-                        <th>Name</th>
-                        <td>:</td>
-                        <td>{{data.name}}</td>
-                    </tr>
-                    <tr class="active">
-                        <th>Qualification</th>
-                        <td>:</td>
-                        <td>{{data.qualification}}</td>
-                    </tr>
-                    <tr class="warning">
-                        <th>Designation</th>
-                        <td>:</td>
-                        <td>{{data.designation}}</td>
-                    </tr>
-                    <tr class="active">
-                        <th>Category</th>
-                        <td>:</td>
-                        <td>{{data.category}}</td>
-                    </tr>	
-                    <tr class="warning">
-                        <th>Email</th>
-                        <td>:</td>
-                        <td>{{data.email}}</td>
-                    </tr>					
-                </table>
+            <div class="aps-family-container">
+                <div class="image-container aps-family-image"><img src="{{data.image}}" alt="{{data.name}}" title="{{data.name}}" class="img-thumbnail"/></div>
+                <div class="table-responsive aps-family-data">   
+                    <table class="table table-hover">
+                       <tr class="warning">
+                            <th>Name</th>
+                            <td>:</td>
+                            <td>{{data.name}}</td>
+                        </tr>
+                        <tr class="active">
+                            <th>Qualification</th>
+                            <td>:</td>
+                            <td>{{data.qualification}}</td>
+                        </tr>
+                        <tr class="warning">
+                            <th>Designation</th>
+                            <td>:</td>
+                            <td>{{data.designation}}</td>
+                        </tr>
+                        <tr class="active">
+                            <th>Category</th>
+                            <td>:</td>
+                            <td>{{data.category}}</td>
+                        </tr>	
+                        <tr class="warning">
+                            <th>Email</th>
+                            <td>:</td>
+                            <td>{{data.email}}</td>
+                        </tr>					
+                    </table>
+                </div>
+                <div class="clear"></div>
             </div>
         </div>	
     </div>

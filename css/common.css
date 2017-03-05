@@ -1,4 +1,5 @@
 body {padding:0px;margin:0px;font-family:'Roboto', sans-serif;position:relative;background:url('../images/inner-bg.jpg') center repeat-x;background-size: auto 100%;}
+h2{color: #31708f;}
 a{outline: none;}
 .clear{clear:both;}
 p{font-size: 15px;}
@@ -53,12 +54,17 @@ box-shadow: 1px 1px 1px 1px rgba(120,43,43,1);}
 .success-stories p{color:#AD0B33;}
 .success-stories a{color:#F6F306;position:absolute;right:15px;top:15px;}
 .posRel{position:relative;}
+
 table{width:100%;}
 th,td{text-align:center;padding:5px;box-shadow: 0 0 1px #000;}
-th{background:#3E8F3E;color:#286090;padding:5px;}
+th{background:#3E8F3E;color:#FFF;padding:5px;}
+#aps-family th{color:#286090;padding:5px;}
+#aps-family td{text-align: left;padding:5px 5px 5px 10px;box-shadow: 0 0 1px #000;}
+#aps-family th{text-align: left;padding:5px 5px 5px 10px;box-shadow: 0 0 1px #000;}
+
 tr:nth-child(even) {background: #C4E4A1;}
 tr:nth-child(odd) {background: #DCF7C8;}
-#aboutUs, #footer, #admission, #TeachersRecruitment, #faq, #download, #ViewGallery, #contactUs, #facultyID, #apexFiesta, #pictureGallery, #videoGallery,#aps-family{background-color:#FFF;border-radius:3px;margin-bottom:4px;}
+#aboutUs, #footer, #admission, #TeachersRecruitment, #faq, #download, #ViewGallery, #contactUs, #facultyID, #apexFiesta, #pictureGallery, #videoGallery,#aps-family{background-color:#FFF;border-radius:3px;}
 .picsCol, .videosCol{width:218px;float:left;margin: 5px;cursor:pointer;}
 
 .header-image{margin-top: 10px;}
@@ -73,6 +79,11 @@ h1{text-transform:uppercase;font-weight:bold;color:#a94442;}
 .popText{background:#03A9F4;}
 .popText h4{margin: 0px;font-size: 35px;padding: 20px;color: #fff;text-align: center;}
 .cross{float:left;}
+.aps-family-image{float: left;}
+.aps-family-data{float:left;}
+.aps-family-image img{width: 142px; height: auto;}
+
+.socialMedia{padding: 10px;}
 
 @media (min-width: 768px) and (max-width: 1112px) {
 	#myNavbar ul{padding-left:0%;}
