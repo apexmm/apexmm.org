@@ -58,9 +58,7 @@ box-shadow: 1px 1px 1px 1px rgba(120,43,43,1);}
 table{width:100%;}
 th,td{text-align:center;padding:5px;box-shadow: 0 0 1px #000;}
 th{background:#3E8F3E;color:#FFF;padding:5px;}
-#aps-family th{color:#286090;padding:5px;}
-#aps-family td{text-align: left;padding:5px 5px 5px 10px;box-shadow: 0 0 1px #000;}
-#aps-family th{text-align: left;padding:5px 5px 5px 10px;box-shadow: 0 0 1px #000;}
+
 
 tr:nth-child(even) {background: #C4E4A1;}
 tr:nth-child(odd) {background: #DCF7C8;}
@@ -85,6 +83,16 @@ h1{text-transform:uppercase;font-weight:bold;color:#a94442;}
 
 .socialMedia{padding: 10px;}
 
+/* APS Family */
+.techDetCont{overflow:auto;border-radius: 2px;}
+.techImgCont{float:left;width:148px;}
+.techImgCont img{width:95%;}
+#aps-family td{text-align: left;padding:5px 5px 5px 10px;box-shadow: 0 0 1px #000;}
+#aps-family th{text-align: left;padding:5px 5px 5px 10px;box-shadow: 0 0 1px #000;width: 94px;color:#286090;}
+#aps-family .alert{padding: 7px;border-radius: 2px;}
+#aps-family table{margin-bottom: 0px;}
+/* End APS Family */
+
 @media (min-width: 768px) and (max-width: 1112px) {
 	#myNavbar ul{padding-left:0%;}
 	.internalPageContainer{padding-top:110px;}
@@ -104,7 +112,7 @@ h1{text-transform:uppercase;font-weight:bold;color:#a94442;}
 @media (max-width: 410px) {
 	.navLogHeader{float:left;width:250px;}
 	.navButtonHear button{margin:2px 0;}
-	.internalPageContainer{padding-top:30px;}
+	.internalPageContainer{padding-top:50px;}
     .picsCol, .videosCol{width:97%;float:none;cursor:pointer;}
     .picsCol img, .videosCol img{width:100%;height: auto;}
     .popText h4{font-size: 25px;}

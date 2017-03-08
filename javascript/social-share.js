@@ -18,5 +18,5 @@ function facebookshare(pageID){
     facebookMsg = facebookMsg.replace(/\"/gi, '%22');
     facebookMsg = facebookMsg.replace(/"/g, '\\"');
         
-     window.open('http://www.facebook.com/dialog/feed?app_id=422718541405827&picture=http://apexmm.org/images/social-share/'+fbShareImage+'&name='+facebookTitle+'&description='+facebookMsg+'&link='+pageLink);
+     window.open('http://www.facebook.com/dialog/feed?app_id=422718541405827&picture=http://apexmm.org/images/'+fbShareImage+'&name='+facebookTitle+'&description='+facebookMsg+'&link='+pageLink);
 }

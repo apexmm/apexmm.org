@@ -1,9 +1,11 @@
 <section id="aps-family" class="container">
     <div class="row">
         <div class="col-sm-6" data-ng-repeat="data in apsFamilyDetails">
-            <div class="aps-family-container">
-                <div class="image-container aps-family-image"><img src="{{data.image}}" alt="{{data.name}}" title="{{data.name}}" class="img-thumbnail"/></div>
-                <div class="table-responsive aps-family-data">   
+            <div class="detContainer alert alert-info">
+                <div class="techImgCont">
+                    <div class="image"><img src="{{data.image}}" alt="{{data.name}}" title="{{data.name}}" class="img-thumbnail"/></div>
+                </div>
+                <div class="techDetCont">
                     <table class="table table-hover">
                        <tr class="warning">
                             <th>Name</th>
@@ -31,9 +33,8 @@
                             <td>{{data.email}}</td>
                         </tr>					
                     </table>
-                </div>
-                <div class="clear"></div>
-            </div>
-        </div>	
+                </div>    
+            </div>	
+        </div>
     </div>
 </section>

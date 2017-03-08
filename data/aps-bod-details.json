@@ -9,7 +9,7 @@
     },{
         "name":"Kuldip Kumar",
         "image":"images/aps-family/Kuldip.jpg",
-        "qualification":"P.G.,B.Ed",
+        "qualification":"P.G., B.Ed",
         "designation":"Vice Principal",
         "category":"OBC",
         "email":"kumarkuldip11@gmail.com"
@@ -19,7 +19,7 @@
         "qualification":"P.G., B.Ed.",
         "designation":"Teacher",
         "category":"OBC",
-        "email":" "
+        "email":""
     },{
         "name":"Punam Devi",
         "image":"images/aps-family/punam.jpg",
@@ -30,17 +30,10 @@
     },{
         "name":"Arti Kumari",
         "image":"images/aps-family/image-upload.jpg",
-        "qualification":"B.A.,PTT",
-        "designationation":"Teacher",
+        "qualification":"B.A., PTT",
+        "designation":"Teacher",
         "category":"OBC",
-        "email":" "
-     },{
-         "name":"Santosh Kumar Thakur",
-         "image":"images/aps-family/image-upload.jpg",
-         "qualification":"B.Sc.",
-         "designation":"Teacher",
-         "category":" ",
-         "email":""
+        "email":""
      },{
          "name":"Lankesh Kumar Mahto",
          "image":"images/aps-family/lankesh.jpg",
