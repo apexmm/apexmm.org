@@ -8,7 +8,7 @@
 	<meta name="description" content="Apex Public School, Marang Marcha was established on 3rd October 2014. The school aims at giving a qualitatively high standard of education which would develop the student innate potential to the fullest. The school is a co-educational english medium School">
 	<meta name="keywords" content="apex, Apex Public School, Apex Public School Marang Marcha, Marang Marcha, school, Ramgarh, best school in jharkhand, APEX Fiesta, best school in ramgarh, apex fiesta 2017, admission, quiz competition">
 	<meta name="author" content="Bhagirat Kumar">
-	<link rel="icon" type="image/png" href="images/APS_Favicon.png" title="APS Favicon" alt="APS Favicon" />
+	<link rel="icon" type="image/png" href="images/APS_Favicon.png" title="APS Favicon" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="css/common.css" />	
@@ -22,13 +22,13 @@
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8C9uwKtM6ikSICjOTxfBo2lcNJ8hhXPs"></script>	
 	<base href="/">
 </head>
-<body ng-app="myApp">
+<body data-ng-app="myApp">
 	<div data-ng-include="'page/header.html'"></div>
-	<section class="internalPageContainer" ng-controller="myController">
-		<div ng-view></div>
+	<section class="internalPageContainer" data-ng-controller="myController">
+		<div data-ng-view></div>
 	</section>
-    <div ng-include="'page/footer.html'"></div>
-    <div ng-include="'page/popups.html'"></div>	
-    <div ng-include="'page/tracking.html'"></div>
+    <div data-ng-include="'page/footer.html'"></div>
+    <div data-ng-include="'page/popups.html'"></div>	
+    <div data-ng-include="'page/tracking.html'"></div>
 </body>
 </html>
