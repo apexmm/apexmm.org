@@ -62,7 +62,7 @@ th{background:#3E8F3E;color:#FFF;padding:5px;}
 
 tr:nth-child(even) {background: #C4E4A1;}
 tr:nth-child(odd) {background: #DCF7C8;}
-#aboutUs, #footer, #admission, #TeachersRecruitment, #faq, #download, #ViewGallery, #contactUs, #facultyID, #apexFiesta, #pictureGallery, #videoGallery,#aps-family{background-color:#FFF;border-radius:3px;}
+#aboutUs, #footer, #admission, #TeachersRecruitment, #faq, #download, #ViewGallery, #contactUs, #facultyID, #apexFiesta, #pictureGallery, #videoGallery,#aps-family, #event-carnival{background-color:#FFF;border-radius:3px;}
 .picsCol, .videosCol{width:218px;float:left;margin: 5px;cursor:pointer;}
 
 .header-image{margin-top: 10px;}

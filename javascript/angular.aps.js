@@ -26,10 +26,12 @@ apsApp.config(function($routeProvider,$locationProvider){
         templateUrl : "page/aps-family.html"
     }).when("/events-and-activities", {
         templateUrl : "page/events-and-activities.html"
+    }).when("/aps-inter-school-events-carnival", {
+        templateUrl : "page/aps-inter-school-events-carnival.html"
     }).otherwise({
 		redirectTo:"/"
 	});
-    
+	
 });
 apsApp.run(function($rootScope,$location){
 	$rootScope.$on('$routeChangeSuccess', function(next,current) { 
