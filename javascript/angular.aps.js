@@ -44,10 +44,9 @@ apsApp.run(function($rootScope,$location){
 apsApp.controller('myController',function($scope, $http){
 	
 	/* School Notice Bord */
-	$scope.notice=['Annual examination 2016-2017 will start from March 3, 2017.',
-		       'Distribution of admit card will start from February 15, 2017.',
-		       'Wish you all Happy New Year 2017.',
-                   'Required english & Science teacher for session 2017-18.'];
+	$scope.notice=['Regular classes for the session 2017-2018 has started.',
+		       'Admissions open for the session 2017-2018.',
+                   'Required english & Science teacher.'];
 	
 	/* End School Notice Bord */
 	
