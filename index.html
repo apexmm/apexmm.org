@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-ng-app="myApp" data-ng-controller="myController">
 <head>    
 	<title>Apex Public School, Marang Marcha</title>
 	<meta charset="utf-8">
@@ -22,9 +22,9 @@
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8C9uwKtM6ikSICjOTxfBo2lcNJ8hhXPs"></script>	
 	<base href="/">
 </head>
-<body data-ng-app="myApp">
+<body>
 	<div data-ng-include="'page/header.html'"></div>
-	<section class="internalPageContainer" data-ng-controller="myController">
+	<section class="internalPageContainer">
 		<div data-ng-view></div>
 	</section>
     <div data-ng-include="'page/footer.html'"></div>

@@ -26,8 +26,8 @@ apsApp.config(function($routeProvider,$locationProvider){
         templateUrl : "page/aps-family.html"
     }).when("/events-and-activities", {
         templateUrl : "page/events-and-activities.html"
-    }).when("/aps-inter-school-events-carnival", {
-        templateUrl : "page/aps-inter-school-events-carnival.html"
+    }).when("/apex-interschool-carnival", {
+        templateUrl : "page/apex-interschool-carnival.html"
     }).otherwise({
 		redirectTo:"/"
 	});

@@ -1,4 +1,11 @@
 $(document).ready(function(){
+    
+    // Activate Carousel
+    $("document#myCarousel").carousel();
+       
+    /* End Carousel Functionality */   
+    
+    
      $(document).on("click", "#closeid", function(){
         $("#popup").remove();
     });
@@ -20,11 +27,17 @@ $(document).ready(function(){
         $('#myVideoModal .modal-body iframe').attr("src","");
     });
     
-    $('ul.navbar-nav li').click(function(){
+    /* Menu functionlaity */ 
+    $(document).on("click", "ul.navbar-nav li", function(){
         $(this).siblings().removeClass('active');
         $(this).addClass('active');
         $('.navbar-toggle').removeClass('collapsed').addClass('collapsed');
         $('.navbar-collapse').removeClass('in');		
+    });
+            
+    /* Footer menu functionality */
+    $(document).on("click", ".footerMenu a", function(){
+       $("ul.navbar-nav li").removeClass('active');        
     });
     
     /** Google Map Functionality */

@@ -1,17 +1,18 @@
-body {padding:0px;margin:0px;font-family:'Roboto',sans-serif;position:relative;background:url('../images/inner-bg.jpg') center repeat-x;background-size: auto 100%;}
+body {color: #0f116d; padding:0px;margin:0px;font-family:'Roboto',sans-serif;position:relative;background:url('../images/background.png') ;}
 h2{color: #31708f;}
 a{outline: none;}
 .clear{clear:both;}
 p{font-size: 15px;}
-.navbar{padding: 5px 0px;/*background:url('../images/menu-bg.jpg') repeat-x #EBA426;background-size: auto 100%;*/background-color: #4caf50;}
+.navbar{padding: 5px 0px;background-color: #4caf50;border-bottom: 1px solid #fff;}
 .navbar-header{width:322px;}
 #myNavbar ul{padding: 5px 0px 5px 3%;}
 .navbar-inverse .navbar-nav > li > a {color: #edeeef;padding-top:10px;padding-bottom:10px;}
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover{background-color: #8bc34a; border-radius: 5px; }
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover{background-color: #3a863b; border-radius: 3px; }
 nav .navbar-header a img{width:100%;height:auto;}
 .internalPageContainer{padding-top:60px;}
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {width: 100%;margin: auto;}
 
+.internalPageContainer section{box-shadow: 0px 2px 3px 1px #060550;background-color:#FFF;border-radius:2px;}
 .internalPageContainer, .homePage{
     /*background:url('../images/inner-bg.jpg') center repeat-x;background-size: auto 100%;*/
     background: #54bd58; /* For browsers that do not support gradients */
@@ -20,6 +21,7 @@ nav .navbar-header a img{width:100%;height:auto;}
     background: -moz-linear-gradient(#54bd58, #F7B23A); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#54bd58, #F7B23A); /* Standard syntax (must be last) */
 }
+.box-shadow{box-shadow: 2px 2px 2px 1px #333;border-radius: 3px;}
 .homePage .container{padding-top: 15px;}
 #newsUpdate{width: 100%;display: block;background: #EBA426;padding: 5px 0;border-top: 1px solid #FFF;border-bottom: 1px solid #fff;}
 
@@ -62,7 +64,6 @@ th{background:#3E8F3E;color:#FFF;padding:5px;}
 
 tr:nth-child(even) {background: #C4E4A1;}
 tr:nth-child(odd) {background: #DCF7C8;}
-#aboutUs, #footer, #admission, #TeachersRecruitment, #faq, #download, #ViewGallery, #contactUs, #facultyID, #apexFiesta, #pictureGallery, #videoGallery,#aps-family, #event-carnival{background-color:#FFF;border-radius:3px;}
 .picsCol, .videosCol{width:218px;float:left;margin: 5px;cursor:pointer;}
 
 .header-image{margin-top: 10px;}
@@ -93,9 +94,17 @@ h1{text-transform:uppercase;font-weight:bold;color:#a94442;}
 #aps-family table{margin-bottom: 0px;}
 /* End APS Family */
 
+/* Carnival Page */
+#event-carnival .finale-collout h1{font-size: 45px;}
+#event-carnival .finale-collout h1 .c1{color: #fb3b92}
+#event-carnival .finale-collout h1 .c2{color: #152dec}
+/* End Carnival Page */
+
+
 @media (min-width: 768px) and (max-width: 1112px) {
 	#myNavbar ul{padding-left:0%;}
 	.internalPageContainer{padding-top:110px;}
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a{color: #FFF;}
 }
 @media (max-width: 767px) {
 	.navLogHeader{float:left;width:320px;}
@@ -108,6 +117,7 @@ h1{text-transform:uppercase;font-weight:bold;color:#a94442;}
     .noticeBoard .newsTitle img{display: none;}
     footer .copyRight{text-align: center;}
     footer .quickLink .container div{margin-bottom: 20px;}
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a{color: #FFF;}
 }
 @media (max-width: 410px) {
 	.navLogHeader{float:left;width:250px;}

@@ -42,6 +42,13 @@
          "category":"OBC",
          "email":"lankeshmahto11@gmail.com"
      },{
+         "name":"Smita Kumari",
+         "image":"images/aps-family/Smita-Kumari.jpg",
+         "qualification":"M.A., B.Ed.",
+         "designation":"Teacher",
+         "category":"",
+         "email":"ksmita0402@gmail.com"
+     },{
          "name":"Rupa Kumari Agrawal",
          "image":"images/aps-family/rupa-agrawal.jpg",
          "qualification":"B.A.",
@@ -60,7 +67,7 @@
          "image":"images/aps-family/Gulshan-Khatun.jpg",
          "qualification":"B.A.",
          "designation":"Teacher",
-         "category":"",
+         "category":"GEN",
          "email":""
      },{
          "name":"Rohit Kumar Mahto",
