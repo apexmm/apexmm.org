@@ -28,6 +28,8 @@ apsApp.config(function($routeProvider,$locationProvider){
         templateUrl : "page/events-and-activities.html"
     }).when("/apex-interschool-carnival", {
         templateUrl : "page/apex-interschool-carnival.html"
+    }).when("/career", {
+        templateUrl : "page/career.html"
     }).otherwise({
 		redirectTo:"/"
 	});
@@ -43,12 +45,14 @@ apsApp.run(function($rootScope,$location){
 });
 apsApp.controller('myController',function($scope, $http){
 	
-	/* School Notice Bord */
-	$scope.notice=['Regular classes for the session 2017-2018 has started.',
-		       'Admissions open for the session 2017-2018.',
-                   'Required english & Science teacher.'];
+	/* School Notice Board */
+	$scope.notice=['Reuired Principal, English Teacher, Sports Teacher and Accountant.',
+                   'School will remain close from 15 May 2017 to 15 June 2017 due to summer vacation,',
+                   'Apex interschool carnival 2017 registration open.', 
+                   'Regular classes for the session 2017-2018 has started.',
+		       'Admissions open for the session 2017-2018.'];
 	
-	/* End School Notice Bord */
+	/* End School Notice Board */
 	
 	/* School Gallary */
 	$scope.imgContainer=[
