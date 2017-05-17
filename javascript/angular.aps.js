@@ -3,32 +3,46 @@ apsApp.config(function($routeProvider,$locationProvider){
     $locationProvider.html5Mode(true);
 	$routeProvider
     .when("/", {
+        title: 'Home',
         templateUrl : "page/home.html"
     }).when("/about-us", {
+        title: 'About Us',
         templateUrl : "page/about-us.html"
     }).when("/admission", {
+        title: 'Admission',
         templateUrl : "page/admission.html"
     }).when("/contact-us", {
+        title: 'Contact',
         templateUrl : "page/contact-us.html"
     }).when("/download", {
+        title: 'Home',
         templateUrl : "page/download.html"
     }).when("/faq", {
+        title: 'Faq',
         templateUrl : "page/faq.html"
     }).when("/apex-fiesta", {
+        title: 'Apex Fiesta',
         templateUrl : "page/apex-fiesta.html"
     }).when("/picture-gallery", {
+        title: 'Picture Gallery',
         templateUrl : "page/picture-gallery.html"
     }).when("/video-gallery", {
+         title: 'Video Gallery',
         templateUrl : "page/video-gallery.html"
     }).when("/media-corner", {
+         title: 'Media Corner',
         templateUrl : "page/media-corner.html"
     }).when("/aps-family", {
+        title: 'APS Family',
         templateUrl : "page/aps-family.html"
     }).when("/events-and-activities", {
+        title: 'Events & Activities',
         templateUrl : "page/events-and-activities.html"
     }).when("/apex-interschool-carnival", {
+        title: 'Apex Interschool Carnival',
         templateUrl : "page/apex-interschool-carnival.html"
     }).when("/career", {
+        title: 'Career',
         templateUrl : "page/career.html"
     }).otherwise({
 		redirectTo:"/"
@@ -36,12 +50,10 @@ apsApp.config(function($routeProvider,$locationProvider){
 	
 });
 apsApp.run(function($rootScope,$location){
-	$rootScope.$on('$routeChangeSuccess', function(next,current) { 
-		if($location.path()=='/events-and-activities')
-			{
-			
-			}
-		 });
+    $rootScope.$on('$routeChangeSuccess', function (event, current, previous) {
+        $rootScope.title = current.$$route.title;
+         $('html, body').animate({scrollTop: '0px'}, 300);
+    });
 });
 apsApp.controller('myController',function($scope, $http){
 	
