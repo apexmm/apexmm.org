@@ -83,6 +83,10 @@ h1{text-transform:uppercase;font-weight:bold;color:#a94442;}
 .aps-family-image img{width: 142px; height: auto;}
 
 .socialMedia{padding: 10px;}
+.teaser-video{
+   margin-left: 295px;
+    
+}
 
 /* APS Family */
 .techDetCont{overflow:auto;border-radius: 2px;}
