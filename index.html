@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html lang="en" data-ng-app="myApp" data-ng-controller="myController">
-<head>    
-	<title ng-bind="title + ' &ndash; Apex Public School, Marang Marcha'">Apex Public School, Marang Marcha</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="alexaVerifyID" content="VOrjNTPL-LOHQH4--iBDlHfsym8"/>
-	<meta name="description" content="Apex Public School, Marang Marcha was established on 3rd October 2014. The school aims at giving a qualitatively high standard of education which would develop the student innate potential to the fullest. The school is a co-educational english medium School. Apex Interschool Carnival is annual competition fest organized by Apex Public School, Marang Marcha every year.">
-	<meta name="keywords" content="apex, Apex Public School, Apex Public School Marang Marcha, Marang Marcha, apex interschool carnival, school, Ramgarh, best school in jharkhand, APEX Fiesta, best school in ramgarh, apex fiesta 2017, admission, quiz competition, apex interschool carnival">
+<head>   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="alexaVerifyID" content="VOrjNTPL-LOHQH4--iBDlHfsym8"/>
+    <meta name="author" content="Bhagirat Kumar">
+    
+    <title ng-bind="ngMeta.title"></title>
+    <meta name="description" content="{{ngMeta.description}}" />
+    <meta name="keywords" content="{{ngMeta.keywords}}" />
+    
+    <meta property="og:image" content="{{ngMeta['og:image']}}" />
+    <meta property="og:title" content="{{ngMeta['og:title']}}" />
+    <meta property="og:description" content="{{ngMeta['og:description']}}" />
+   
 	<meta name="author" content="Bhagirat Kumar">
-	<link rel="icon" type="image/png" href="images/APS_Favicon.png" title="APS Favicon" />
+	
+    <link rel="icon" type="image/png" href="images/APS_Favicon.png" title="APS Favicon" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="css/common.css" />	
+    
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-route.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ng-meta/1.0.0/ngMeta.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
     <script src="javascript/jquery.page-functionality.js"></script>
     <script src="javascript/angular.aps.js"></script>
