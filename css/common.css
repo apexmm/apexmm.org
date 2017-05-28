@@ -21,7 +21,7 @@ nav .navbar-header a img{width:100%;height:auto;}
     background: -moz-linear-gradient(#54bd58, #F7B23A); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#54bd58, #F7B23A); /* Standard syntax (must be last) */
 }
-.box-shadow{box-shadow: 2px 2px 2px 1px #333;border-radius: 3px;}
+.box-shadow{1px 3px 5px 1px #333;border-radius: 3px;}
 .homePage .container{padding-top: 15px;}
 #newsUpdate{width: 100%;display: block;background: #EBA426;padding: 5px 0;border-top: 1px solid #FFF;border-bottom: 1px solid #fff;}
 
@@ -113,7 +113,7 @@ h1{text-transform:uppercase;font-weight:bold;color:#a94442;}
 @media (max-width: 767px) {
 	.navLogHeader{float:left;width:320px;}
 	.navButtonHear{width:45px;float:right;}
-	.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header{width: 100%;margin:0 auto;}
+	.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header{width: 100%;margin: 0px;}
 	.navButtonHear button{margin:8px 0;}
     .header-image {margin-top: 5px;}
     .noticeBoard .news-content{font-size: 15px;}

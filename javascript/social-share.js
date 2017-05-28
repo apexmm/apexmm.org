@@ -19,7 +19,7 @@ function facebookshare(pageID){
     }else if(pageID=='career'){
         facebookTitle = "APEX PUBLIC SCHOOL RECRUITMENT 2017";
         facebookMsg = "Teaching & Non-Teaching Vacancies in Apex Public School, Marang Marcha. Applications are invited for teaching and non-teachings vacant posts in Apex Public School, Marang Marcha. Salary:12,000*/-.";
-        fbShareImage="Apex-Public-School-Teacher-Recruitment-2017.jpg";
+        fbShareImage="apex-public-school-teacher-recruitment.jpg";
         pageLink="http://apexmm.org/career";
         
     }
