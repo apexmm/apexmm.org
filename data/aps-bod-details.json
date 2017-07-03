@@ -69,6 +69,20 @@
          "designation":"Clerk",
          "category":"OBC",
          "email":"rohitkr.mahto00892@gmail.com"
+     },{
+         "name":"Abhay Chandra Chakrabarty",
+         "image":"images/aps-family/abhay.jpg",
+         "qualification":"M.A., D.Eled(BT).",
+         "designation":"Teacher",
+         "category":"GEN",
+         "email":"abhaychandrachakrabarty@gmail.com"
+     },{
+         "name":"Anindita Choudhury",
+         "image":" ",
+         "qualification":"M.A.",
+         "designation":"Teacher",
+         "category":"GEN",
+         "email":"aninditachoudhury93@gmail.com"
      }
          
    ]
