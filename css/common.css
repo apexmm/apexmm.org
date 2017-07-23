@@ -21,6 +21,7 @@ nav .navbar-header a img{width:100%;height:auto;}
     background: -moz-linear-gradient(#54bd58, #F7B23A); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#54bd58, #F7B23A); /* Standard syntax (must be last) */
 }
+.internalPage{padding-top: 10px;}
 .box-shadow{1px 3px 5px 1px #333;border-radius: 3px;}
 .homePage .container{padding-top: 15px;}
 #newsUpdate{width: 100%;display: block;background: #EBA426;padding: 5px 0;border-top: 1px solid #FFF;border-bottom: 1px solid #fff;}
@@ -66,8 +67,6 @@ tr:nth-child(even) {background: #C4E4A1;}
 tr:nth-child(odd) {background: #DCF7C8;}
 .picsCol, .videosCol{width:218px;float:left;margin: 5px;cursor:pointer;}
 
-.header-image{margin-top: 10px;}
-.header-image img{width: 100%;}
 h1{text-transform:uppercase;font-weight:bold;color:#a94442;}
 .thumbnail .caption {color: #00549c;background: #dff0d8;}
 .thumbnail .caption p{margin: 0px;}
@@ -83,10 +82,7 @@ h1{text-transform:uppercase;font-weight:bold;color:#a94442;}
 .aps-family-image img{width: 142px; height: auto;}
 
 .socialMedia{padding: 10px;}
-.teaser-video{
-   margin-left: 295px;
-    
-}
+.teaser-video{margin-left: 295px;}
 
 /* APS Family */
 .techDetCont{overflow:auto;border-radius: 2px;}
@@ -102,13 +98,63 @@ h1{text-transform:uppercase;font-weight:bold;color:#a94442;}
 #event-carnival .finale-collout h1{font-size: 45px;}
 #event-carnival .finale-collout h1 .c1{color: #fb3b92}
 #event-carnival .finale-collout h1 .c2{color: #152dec}
+.iscadj{margin-top: -73px;position: relative;}
 /* End Carnival Page */
+
+/* bootstrap Customization */
+.img-thumbnail{padding: 2px;border-radius: 3px;}
+.img-thumbnail img{border-radius: 3px;}
+
+/* bootstrap Customization End*/
+
+/* Accordian */
+#accordion .glyphicon { margin-right:10px; }
+.panel-collapse>.list-group .list-group-item:first-child {border-top-right-radius: 0;border-top-left-radius: 0;}
+.panel-collapse>.list-group .list-group-item {border-width: 1px 0;}
+.panel-collapse>.list-group {margin-bottom: 0;}
+.panel-collapse .list-group-item {border-radius:0;}
+
+.panel-collapse .list-group .list-group {margin: 0;margin-top: 10px;}
+.panel-collapse .list-group-item li.list-group-item {margin: 0 -15px;border-top: 1px solid #ddd !important;border-bottom: 0;padding-left: 30px;}
+.panel-collapse .list-group-item li.list-group-item:last-child {padding-bottom: 0;}
+
+.panel-collapse div.list-group div.list-group{margin: 0;}
+.panel-collapse div.list-group .list-group a.list-group-item {border-top: 1px solid #ddd !important;border-bottom: 0;padding-left: 30px;}
+.panel-collapse .list-group-item li.list-group-item {border-top: 1px solid #DDD !important;}
+/* Accordian */
+
+/* Text callout */
+.flex-row{display: flex;flex-direction: row;}
+
+.bs-callout {padding: 15px; margin: 10px 10px 5px 0px;border: 1px solid #eee;border-left-width: 5px;border-radius: 3px;}
+.bs-callout h4 {margin-top: 0;margin-bottom: 5px;font-weight: bold;}
+.bs-callout p:last-child {margin-bottom: 0;}
+.bs-callout p {margin: 0 0 5px;}
+.bs-callout code {border-radius: 3px;}
+.bs-callout-default {border-left-color: #777;}
+.bs-callout-default h4 {color: #777;}
+.bs-callout-primary {border-left-color: #428bca;}
+.bs-callout-primary h4 {color: #428bca;}
+.bs-callout-success {border-left-color: #5cb85c;}
+.bs-callout-success h4 {color: #5cb85c;}
+.bs-callout-danger {border-left-color: #d9534f;}
+.bs-callout-danger h4 {color: #d9534f;}
+.bs-callout-warning {border-left-color: #f0ad4e;}
+.bs-callout-warning h4 {color: #f0ad4e;}
+.bs-callout-info {border-left-color: #5bc0de;}
+.bs-callout-info h4 {color: #5bc0de;}
+.background-success{background: #5cb85c;}
+.bs-example{margin: 20px;  }
+.panel-title .glyphicon{font-size: 14px;}
+#accordion .panel-heading .panel-title a{cursor: pointer;}
+/* End Text Callout */
 
 
 @media (min-width: 768px) and (max-width: 1112px) {
 	#myNavbar ul{padding-left:0%;}
 	.internalPageContainer{padding-top:110px;}
     .navbar-inverse .navbar-nav .open .dropdown-menu>li>a{color: #FFF;}
+    
 }
 @media (max-width: 767px) {
 	.navLogHeader{float:left;width:320px;}
@@ -122,6 +168,7 @@ h1{text-transform:uppercase;font-weight:bold;color:#a94442;}
     footer .copyRight{text-align: center;}
     footer .quickLink .container div{margin-bottom: 20px;}
     .navbar-inverse .navbar-nav .open .dropdown-menu>li>a{color: #FFF;}
+    .flex-row{flex-direction: column;}
 }
 @media (max-width: 410px) {
 	.navLogHeader{float:left;width:250px;}
