@@ -4,77 +4,66 @@
         "image":"images/aps-family/bhagirath-kumar.jpg",
         "qualification":"Master in Computer Application(MCA)",
         "designation":"Director",
-        "category":"OBC",
         "email":"bhagirathrajrappa@gmail.com"
     },{
         "name":"Kuldip Kumar",
         "image":"images/aps-family/Kuldip.jpg",
         "qualification":"P.G., B.Ed",
         "designation":"Vice Principal",
-        "category":"OBC",
         "email":"kumarkuldip11@gmail.com"
     },{
         "name":"Pratibha Kumari",
         "image":"images/aps-family/pratibha-kumari.jpg",
         "qualification":"P.G., B.Ed.",
         "designation":"Teacher",
-        "category":"OBC",
         "email":""
     },{
         "name":"Vikrant Kumar Agrawal",
         "image":"images/aps-family/Vikrant-Kumar-Agrawal.jpg",
         "qualification":"B.Com",
         "designation":"Teacher",
-        "category":"General ",
         "email":"vikrantagr11@gmail.com"
      },{
          "name":"Lankesh Kumar Mahto",
          "image":"images/aps-family/lankesh.jpg",
          "qualification":"B.Sc.",
          "designation":"Teacher",
-         "category":"OBC",
          "email":"lankeshmahto11@gmail.com"
      },{
          "name":"Smita Kumari",
          "image":"images/aps-family/Smita-Kumari.jpg",
          "qualification":"M.A., B.Ed.",
          "designation":"Teacher",
-         "category":"",
          "email":"ksmita0402@gmail.com"
      },{
          "name":"Priyanka Kumari",
          "image":"images/aps-family/PRIYANKA.jpg",
          "qualification":"M.Com.",
          "designation":"Teacher",
-         "category":"OBC",
          "email":"priyankanagesh23@gmail.com"
      },{
          "name":"Gulshan Khatun",
          "image":"images/aps-family/Gulshan-Khatun.jpg",
          "qualification":"B.A.",
          "designation":"Teacher",
-         "category":"GEN",
          "email":""
      },{
          "name":"Rohit Kumar Mahto",
          "image":"images/aps-family/rohit-kumar.jpg",
          "qualification":"Intermediate",
          "designation":"Clerk",
-         "category":"OBC",
          "email":"rohitkr.mahto00892@gmail.com"
      },{
          "name":"Abhay Chandra Chakrabarty",
          "image":"images/aps-family/abhay.jpg",
          "qualification":"M.A., D.Eled(BT).",
          "designation":"Teacher",
-         "category":"GEN",
          "email":"abhaychandrachakrabarty@gmail.com"
      },{
          "name":"Anindita Choudhury",
          "image":"images/aps-family/anindita.jpg",
          "qualification":"M.A.",
          "designation":"Teacher",
-         "category":"GEN",
          "email":"aninditachoudhury93@gmail.com"
      }
          
