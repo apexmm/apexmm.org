@@ -7,7 +7,6 @@ apsApp.config(function($routeProvider,$locationProvider,ngMetaProvider){
    
     $routeProvider
     .when("/", {
-        title: 'Home',
         templateUrl : "page/home.html",
         data:{
             meta: {
@@ -128,7 +127,6 @@ apsApp.config(function($routeProvider,$locationProvider,ngMetaProvider){
             }
         }
     }).when("/career", {
-        title: 'Career',
         templateUrl : "page/career.html",
         data:{
             meta: {
