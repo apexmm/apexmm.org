@@ -155,8 +155,7 @@ apsApp.run(function($rootScope,$location,ngMeta){
 apsApp.controller('myController',function($scope, $http){
 	
 	/* School Notice Board */
-	$scope.notice=['School will remain close on 26 July 2017 and 27 July 2017 due to heavy rainfall' ,
-                   'Apex interschool carnival 2017 registration open. Last date of registration 25 August 2017'];
+	$scope.notice=['Apex interschool carnival 2017 registration open. Last date of registration 05 September 2017'];
 	
 	/* End School Notice Board */
 	
