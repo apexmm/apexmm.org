@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var apsApp = angular.module('myApp', ["ngRoute","ngMeta"]);
 apsApp.config(function($routeProvider,$locationProvider,ngMetaProvider){
     $locationProvider.html5Mode(true);
@@ -208,7 +207,6 @@ apsApp.controller('myController',function($scope, $http){
     });
     /* End APS Event details */
 });
-=======
 var apsApp = angular.module('myApp', ["ngRoute","ngMeta"]);
 apsApp.config(function($routeProvider,$locationProvider,ngMetaProvider){
     $locationProvider.html5Mode(true);
@@ -417,4 +415,3 @@ apsApp.controller('myController',function($scope, $http){
     });
     /* End APS Event details */
 });
->>>>>>> fa02150494ce8ce3f6e7d2c38b9c611a3b42c6a1
