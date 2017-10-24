@@ -19,7 +19,7 @@
         "email":""
     },{
         "name":"Vikrant Kumar Agrawal",
-        "image":"images/aps-family/Vikrant-Kumar-Agrawal.jpg",
+        "image":"images/aps-family/Vikrant-Kumar-Agrawal.JPG",
         "qualification":"B.Com",
         "designation":"Teacher",
         "email":"vikrantagr11@gmail.com"
@@ -48,12 +48,6 @@
          "designation":"Teacher",
          "email":""
      },{
-         "name":"Rohit Kumar Mahto",
-         "image":"images/aps-family/rohit-kumar.jpg",
-         "qualification":"Intermediate",
-         "designation":"Clerk",
-         "email":"rohitkr.mahto00892@gmail.com"
-     },{
          "name":"Abhay Chandra Chakrabarty",
          "image":"images/aps-family/abhay.jpg",
          "qualification":"M.A., D.Eled(BT).",
@@ -65,6 +59,12 @@
          "qualification":"M.A.",
          "designation":"Teacher",
          "email":"aninditachoudhury93@gmail.com"
+     },{
+         "name":"Anjalika Sinha",
+         "image":"images/aps-family/Anjalika.jpg",
+         "qualification":"M.Sc.",
+         "designation":"Teacher",
+         "email":"anjalikasinha08@gmail.com"
      }
          
    ]
