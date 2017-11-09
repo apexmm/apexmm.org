@@ -30,12 +30,6 @@
          "designation":"Teacher",
          "email":"lankeshmahto11@gmail.com"
      },{
-         "name":"Smita Kumari",
-         "image":"images/aps-family/Smita-Kumari.jpg",
-         "qualification":"M.A., B.Ed.",
-         "designation":"Teacher",
-         "email":"ksmita0402@gmail.com"
-     },{
          "name":"Priyanka Kumari",
          "image":"images/aps-family/PRIYANKA.jpg",
          "qualification":"M.Com.",
@@ -65,6 +59,12 @@
          "qualification":"M.Sc.",
          "designation":"Teacher",
          "email":"anjalikasinha08@gmail.com"
+     },{
+         "name":"Shatrughan Kumar",
+         "image":" ",
+         "qualification":"B.Sc.",
+         "designation":"Teacher",
+         "email":"shatrughankr2@gmail.com"
      }
          
    ]
