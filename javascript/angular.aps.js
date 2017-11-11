@@ -155,7 +155,8 @@ apsApp.run(function($rootScope,$location,ngMeta){
 apsApp.controller('myController',function($scope, $http){
 	
 	/* School Notice Board */
-	$scope.notice=['Admission for the session 2018-2019 will start from 03 January 2018. '];
+	$scope.notice=['Reuired principal, computer & science teacher. For more details visit career page.',
+                   'Admission for class NUR. to VI for session 2018-2019 will start from 03rd January 2018. '];
 	
 	/* End School Notice Board */
 	
@@ -362,8 +363,8 @@ apsApp.run(function($rootScope,$location,ngMeta){
 apsApp.controller('myController',function($scope, $http){
 	
 	/* School Notice Board */
-	$scope.notice=['School will remain close on 26 July 2017 and 27 July 2017 due to heavy rainfall' ,
-                   'Apex interschool carnival 2017 registration open. Last date of registration 25 August 2017'];
+	$scope.notice=['Required Principal, Computer & Science teacher. For more details visit career page.' ,
+                   'Admission for class NUR. to VI for session 2018-2019 will start from 3rd January 2018.'];
 	
 	/* End School Notice Board */
 	
