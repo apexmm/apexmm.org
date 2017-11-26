@@ -65,6 +65,11 @@
          "qualification":"B.Sc.",
          "designation":"Teacher",
          "email":"shatrughankr2@gmail.com"
-     }
-         
-   ]
+     },{
+		"name":"Dharmendra kumar",
+		"image":"images/aps-family/dharmendra.png",
+		"qualification":"B.A.",
+		"designation":"Teacher",
+		"email":"dharmendramahto770@gmail.com"
+	 }
+    ]
