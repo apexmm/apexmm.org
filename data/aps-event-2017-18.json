@@ -1,18 +1,70 @@
 [
-{ 
-	"eventName":"Mehandi Competition 07-JULY-2017",
+    { 
+	"eventName":"Rangoli Competition (Group) 18-October-2017",
+    "image":"images/events-and-activities/rangoli-17.jpg",
 	"eventDetails":[
-		{"id":1,"name":"Bhagirath Kumar","class":"L.K.G","marks":"48"}, 
-		{"id":2,"name":"Sandip Kumar","class":"U.K.G","marks":"46"},
-		{"id":3,"name":"Rita Kumari","class":"Four","marks":"44"}
+		{"id":1,"name":"Soni Kumari, Nicky Kumar, Khilanti Kumari, Chandan Kumar, Ankit Kumar, Priyanshu Kumar","class":"Five, Four, Two, Two, One, One","marks":"28.5/30"}, 
+		{"id":2,"name":"Amit Kumar, Raju Kumar, Ganga Kumari","class":"Four, Five, One","marks":"28/30"},
+		{"id":3,"name":"Sachu Kumar, Bhunika Kumari, Sanjati Kumari, Riya Kumari","class":"Three, Two, One, One","marks":"26.5/30"}
+	]
+},
+
+    { 
+	"eventName":"English Essay Writing Competition 05-October-2017",
+    "image":"images/events-and-activities/essay-17.jpg",
+	"eventDetails":[
+		{"id":1,"name":"Neha Kumari","class":"Four","marks":"19/20"}, 
+		{"id":2,"name":"Soni Kumari","class":"Five","marks":"18.5/20"},
+		{"id":3,"name":"Puja Parween","class":"Five","marks":"18/20"}
+	]
+},
+
+    { 
+	"eventName":"Hindi Speech Competition 14-September-2017",
+    "image":"images/events-and-activities/speech-17.jpg",
+	"eventDetails":[
+		{"id":1,"name":"Nicky Kumar","class":"Four","marks":"27/30"}, 
+		{"id":2,"name":"Neha Parween","class":"Five","marks":"26/30"},
+		{"id":3,"name":"Ankit Kumar","class":"One","marks":"25.5/30"}
+	]
+},
+
+{ 
+	"eventName":"Maths Quiz Competition 28-August-2017",
+    "image":"images/events-and-activities/maths-17.jpg",
+	"eventDetails":[
+		{"id":1,"name":"Ashish Kumar","class":"Two","marks":"24/25"}, 
+		{"id":2,"name":"Krish Kumar","class":"Two","marks":"23/25"},
+		{"id":3,"name":"Rajesh Kumar","class":"Two","marks":"22/25"}
+	]
+},
+    
+{ 
+	"eventName":"English Speech Competition 29-July-2017",
+    "image":"images/events-and-activities/speech-17.jpg",
+	"eventDetails":[
+		{"id":1,"name":"Pooja Kumari","class":"Five","marks":"20/20"}, 
+		{"id":2,"name":"Soni Kumari","class":"Five","marks":"19/20"},
+		{"id":3,"name":"Samma Parween","class":"Five","marks":"18/20"}
+	]
+},
+
+{ 
+	"eventName":"Mehandi Competition 03-July-2017",
+    "image":"images/events-and-activities/mehandi-17.jpg",
+	"eventDetails":[
+		{"id":1,"name":"Pooja Kumari","class":"Five","marks":"29/30"}, 
+		{"id":2,"name":"Neha Praween","class":"Five","marks":"26/30"},
+		{"id":3,"name":"Soni Kumari","class":"Five","marks":"24/30"}
 	]
 },
 { 
-	"eventName":"Dance Competition 28-DEC-2016",
+	"eventName":"G.K. Quiz Competition 28-April-2017",
+    "image":"images/events-and-activities/gk-quiz-17.png",
 	"eventDetails":[
-		{"id":1,"name":"Neha Kumari","class":"For","marks":"38"}, 
-		{"id":2,"name":"Ramesh","class":"Three","marks":"36"},
-		{"id":3,"name":"Hira Mahto","class":"U.K.G","marks":"34"}
+		{"id":1,"name":"Geeta Kumari","class":"THREE","marks":"21/25"}, 
+		{"id":2,"name":"Rajesh Kumar","class":"TWO","marks":"20/25"},
+		{"id":3,"name":"Ashish Kumar","class":"THREE","marks":"19/25"}
 	]
 }
 ]

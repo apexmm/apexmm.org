@@ -407,9 +407,9 @@ apsApp.controller('myController',function($scope, $http){
     /* End APS Family details */
     
     /* APS Event details */
-    $http.get("data/aps-event-2016-17.json")
+    $http.get("data/aps-event-2017-18.json")
     .then(function(response) {
-        $scope.eventList2016 = response.data;
+        $scope.eventList2017 = response.data;
     },function(response) {
         $scope.error = "Something went wrong in Event section !!!";
         console.log($scope.content);
