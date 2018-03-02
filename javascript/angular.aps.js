@@ -21,7 +21,7 @@ apsApp.config(function($routeProvider,$locationProvider,ngMetaProvider){
         data:{
             meta: {
                 "title": "About Us",
-                "description": "Apex Public School, Marang Marcha was established on 3rd October 2014. The school is a co-educational English medium School. School code: 20241501103.",  
+                "description": "Apex Public School, Marang Marcha was established on 3rd October 2014. The school is a co-educational English medium School run & managed by Babu Ram Mahto Foundation, Marang Marcha.",  
                 "keywords":"about, about apex public school, apex, Apex Public School, Apex Public School Marang Marcha, Marang Marcha"   				
             }
         }
@@ -155,8 +155,10 @@ apsApp.run(function($rootScope,$location,ngMeta){
 apsApp.controller('myController',function($scope, $http){
 	
 	/* School Notice Board */
-	$scope.notice=['Reuired principal, computer & science teacher. For more details visit career page.',
-                   'Admission for class NUR. to VI for session 2018-2019 will start from 03rd January 2018. '];
+	$scope.notice=['SA-II examination for session 2017-2018 will commence from 09 March 2018.',
+                   'Last date for distribution of admit card: 07 March 2018.',
+                   'Reuired principal, computer & science teacher. For more details visit career page.',
+                   'Admission for class NUR. to VI for session 2018-2019.'];
 	
 	/* End School Notice Board */
 	
