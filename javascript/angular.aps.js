@@ -155,10 +155,10 @@ apsApp.run(function($rootScope,$location,ngMeta){
 apsApp.controller('myController',function($scope, $http){
 	
 	/* School Notice Board */
-	$scope.notice=['SA-II examination for session 2017-2018 will commence from 09 March 2018.',
-                   'Last date for distribution of admit card: 07 March 2018.',
-                   'Reuired principal, computer & science teacher. For more details visit career page.',
-                   'Admission for class NUR. to VI for session 2018-2019.'];
+	$scope.notice=['Regular classes of session 2018-2019 will commence from April 2,2018.',
+	              'Annual result of session 2017-2018 will be published on March 27,2018.',
+				  'Required Principal, Computer & Science teacher. For more details visit career page.' ];
+	
 	
 	/* End School Notice Board */
 	
