@@ -155,9 +155,8 @@ apsApp.run(function($rootScope,$location,ngMeta){
 apsApp.controller('myController',function($scope, $http){
 	
 	/* School Notice Board */
-	$scope.notice=['Regular classes of session 2018-2019 will commence from April 2,2018.',
-	              'Annual result of session 2017-2018 will be published on March 27,2018.',
-				  'Required Principal, Computer & Science teacher. For more details visit career page.' ];
+	$scope.notice=['Required Principal, Computer & Science teacher. For more details visit career page.',
+		      'School will remain close from 18 May 2018 to 16 June 2018 due to summer vacation.' ];
 	
 	
 	/* End School Notice Board */
