@@ -12,8 +12,8 @@ apsApp.config(function($routeProvider,$locationProvider,ngMetaProvider){
         data:{
             meta: {
                 "title": "Home",
-                "description": "Apex Public School, Marang Marcha was established on 3rd October 2014. The school is a co-educational English medium School. School code: 20241501103.",  
-                "keywords":"home, apex, Apex Public School, Apex Public School Marang Marcha, Marang Marcha"                
+                "description": "Apex Public School, Marang Marcha was established on 3rd October 2014. The school is a co-educational English medium School run and managed by Babu Ram Mahto Foundation, Marang Marcha. School code: 20241501103.",  
+                "keywords":"home, apex, Apex Public School, Apex Public School Marang Marcha"                
             }
         }
     }).when("/about-us", {
@@ -155,10 +155,7 @@ apsApp.run(function($rootScope,$location,ngMeta){
 apsApp.controller('myController',function($scope, $http){
 	
 	/* School Notice Board */
-	$scope.notice=['SA-II examination for session 2017-2018 will commence from 09 March 2018.',
-                   'Last date for distribution of admit card: 07 March 2018.',
-                   'Reuired principal, computer & science teacher. For more details visit career page.',
-                   'Admission for class NUR. to VI for session 2018-2019.'];
+	$scope.notice=['Admission for class NUR. to VII for session 2019-2020 will start from 03 January 2019.', 'Required English, Science & Sports teacher for session 2019-20120.'];
 	
 	/* End School Notice Board */
 	
@@ -344,9 +341,9 @@ apsApp.config(function($routeProvider,$locationProvider,ngMetaProvider){
             meta: {
                 "title": "Career",
                 "description": "Latest recruitment/vacancy at Apex public school, Career at Apex public school, APEX PUBLIC SCHOOL RECRUITMENT 2017",      
-                "keywords":"APEX PUBLIC SCHOOL RECRUITMENT 2017, Required Principal, English & Sports teacher, Accountant, Salary:12,000*.",
+                "keywords":"APEX PUBLIC SCHOOL RECRUITMENT 2019, Required English & Sports teacher, Accountant, Salary:12,000*.",
 				"og:image": "http://apexmm.org/images/social-share/Apex-Public-School-Teacher-Recruitment-2017.jpg",
-				"og:title": "APEX PUBLIC SCHOOL RECRUITMENT 2017",
+				"og:title": "APEX PUBLIC SCHOOL RECRUITMENT 2019",
 				"og:description": "Teaching & Non-Teaching Vacancies in Apex Public School, Marang Marcha. Applications are invited for teaching and non-teachings vacant posts in Apex Public School, Marang Marcha. Salary:12,000*."
             }
         }
