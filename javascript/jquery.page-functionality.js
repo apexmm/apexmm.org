@@ -73,9 +73,9 @@ $(document).ready(function(){
 });
 
 /* Load popup admission open popup while user visit the site */
-/*
+
 $(window).load(function(){     
     $('#popup').show();
-});*/
+});
 
 /* End popup */
