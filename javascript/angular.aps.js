@@ -155,9 +155,10 @@ apsApp.run(function($rootScope,$location,ngMeta){
 apsApp.controller('myController',function($scope, $http){
 	
 	/* School Notice Board */
-	$scope.notice=['Required Principal, Computer & Science teacher. For more details visit career page.',
-		      'School will remain close from 18 May 2018 to 16 June 2018 due to summer vacation.' ];
-	
+	$scope.notice=['SA-II examination for session 2017-2018 will commence from 09 March 2018.',
+                   'Last date for distribution of admit card: 07 March 2018.',
+                   'Reuired principal, computer & science teacher. For more details visit career page.',
+                   'Admission for class NUR. to VI for session 2018-2019.'];
 	
 	/* End School Notice Board */
 	
@@ -364,8 +365,7 @@ apsApp.run(function($rootScope,$location,ngMeta){
 apsApp.controller('myController',function($scope, $http){
 	
 	/* School Notice Board */
-	$scope.notice=['Required Principal, Computer & Science teacher. For more details visit career page.' ,
-                   'Admission for class NUR. to VI for session 2018-2019 will start from 3rd January 2018.'];
+	[' Required Science teacher. For more details visit career page.' ];
 	
 	/* End School Notice Board */
 	

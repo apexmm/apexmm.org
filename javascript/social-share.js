@@ -17,8 +17,8 @@ function facebookshare(pageID){
         pageLink="http://apexmm.org/apex-interschool-carnival";
         
     }else if(pageID=='career'){
-        facebookTitle = "APEX PUBLIC SCHOOL RECRUITMENT 2018";
-        facebookMsg = " Vacancies in Apex Public School, Marang Marcha. Applications are invited for teaching and non-teachings vacant posts in Apex Public School, Marang Marcha. Salary:20,000*/-.";
+        facebookTitle = "APEX PUBLIC SCHOOL RECRUITMENT 2017";
+        facebookMsg = "Teaching & Non-Teaching Vacancies in Apex Public School, Marang Marcha. Applications are invited for teaching and non-teachings vacant posts in Apex Public School, Marang Marcha. Salary:12,000*/-.";
         fbShareImage="apex-public-school-teacher-recruitment.jpg";
         pageLink="http://apexmm.org/career";
         
@@ -31,9 +31,8 @@ function facebookshare(pageID){
     facebookMsg = facebookMsg.replace("#", "%23");
     facebookMsg = facebookMsg.replace(/\"/gi, '%22');
     facebookMsg = facebookMsg.replace(/"/g, '\\"');
-    facebookMsg = facebookMsg.replace("&", "%26");
-    
+    facebookMsg = facebookMsg.replace("&", "%26");    
     
         
-     window.open('http://www.facebook.com/dialog/feed?app_id=422718541405827&picture=http://apexmm.org/images/social-share/'+fbShareImage+'&name='+facebookTitle+'&description='+facebookMsg+'&link='+pageLink);
+     window.open('http://www.facebook.com/dialog/feed?app_id=422718541405827&link='+location.href);
 }
