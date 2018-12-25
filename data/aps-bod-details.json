@@ -1,5 +1,11 @@
 [
-    {
+     {
+        "name":"Babu Ram Mahto",
+        "image":"images/aps-family/Babu-Ram-Mahto.jpg",
+        "qualification":"ITI, 20+ Years of Experience in HRM",
+        "designation":"Founder",
+        "email":"baburam8062@gmail.com"
+    },{
         "name":"Bhagirath Kumar",
         "image":"images/aps-family/bhagirath-kumar.jpg",
         "qualification":"Master in Computer Application(MCA)",
@@ -11,6 +17,12 @@
         "qualification":"B.TECH(IT)",
         "designation":"Deputy Director",
         "email":"arvindkr016@gmail.com"
+    },{
+        "name":"Vishal Nath Routh",
+        "image":"images/aps-family/Vishal-Nath-Routh.jpg",
+        "qualification":"M.A., M.C.A., ASE-PD",
+        "designation":"Principal",
+        "email":"routhvishu@gmail.com"
     },{
         "name":"Kuldip Kumar",
         "image":"images/aps-family/Kuldip.jpg",
@@ -26,62 +38,75 @@
     },{
         "name":"Vikrant Kumar Agrawal",
         "image":"images/aps-family/Vikrant-Kumar-Agrawal.JPG",
-        "qualification":"B.Com",
+        "qualification":"B.Com, PTT",
         "designation":"Teacher",
         "email":"vikrantagr11@gmail.com"
-     },{
-         "name":"Lankesh Kumar Mahto",
-         "image":"images/aps-family/lankesh.jpg",
-         "qualification":"B.Sc.",
-         "designation":"Teacher",
-         "email":"lankeshmahto11@gmail.com"
-     },{
-         "name":"Priyanka Kumari",
-         "image":"images/aps-family/PRIYANKA.jpg",
-         "qualification":"M.Com.",
-         "designation":"Teacher",
-         "email":"priyankanagesh23@gmail.com"
-     },{
-         "name":"Gulshan Khatun",
-         "image":"images/aps-family/Gulshan-Khatun.jpg",
-         "qualification":"B.A.",
-         "designation":"Teacher",
-         "email":""
-     },{
-         "name":"Abhay Chandra Chakrabarty",
-         "image":"images/aps-family/abhay.jpg",
-         "qualification":"M.A., D.Eled(BT).",
-         "designation":"Teacher",
-         "email":"abhaychandrachakrabarty@gmail.com"
-     },{
-         "name":"Anindita Choudhury",
-         "image":"images/aps-family/anindita.jpg",
-         "qualification":"M.A.",
-         "designation":"Teacher",
-         "email":"aninditachoudhury93@gmail.com"
-     },{
-         "name":"Anjalika Sinha",
-         "image":"images/aps-family/Anjalika.jpg",
-         "qualification":"M.Sc.",
-         "designation":"Teacher",
-         "email":"anjalikasinha08@gmail.com"
-     },{
-         "name":"Shatrughan Kumar",
-         "image":"images/aps-family/upload-image.png",
-         "qualification":"B.Sc.",
-         "designation":"Teacher",
-         "email":"shatrughankr2@gmail.com"
-     },{
-		"name":"Dharmendra kumar",
-		"image":"images/aps-family/dharmendra.png",
-		"qualification":"B.A.",
+    },{
+		"name":"Lankesh Kumar Mahto",
+		"image":"images/aps-family/lankesh.jpg",
+		"qualification":"B.Sc., PTT",
 		"designation":"Teacher",
-		"email":"dharmendramahto770@gmail.com"
-	 },{
+		"email":"lankeshmahto11@gmail.com"
+    },{
+		"name":"Priyanka Kumari",
+		"image":"images/aps-family/PRIYANKA.jpg",
+		"qualification":"M.Com.",
+		"designation":"Teacher",
+		"email":"priyankanagesh23@gmail.com"
+    },{
+		"name":"Gulshan Khatun",
+		"image":"images/aps-family/Gulshan-Khatun.jpg",
+		"qualification":"B.A., PTT",
+		"designation":"Teacher",
+		"email":""
+    },{
+		"name":"Abhay Chandra Chakrabarty",
+		"image":"images/aps-family/abhay.jpg",
+		"qualification":"M.A., D.Eled(BT).",
+		"designation":"Teacher",
+		"email":"abhaychandrachakrabarty@gmail.com"
+    },{
 		"name":"Tanisha Jayswal",
 		"image":"images/aps-family/tanisha.jpg",
 		"qualification":"B.A.",
 		"designation":"Office Coordinator",
 		"email":"tanishajayswal2605@gmail.com"
-	 }
-    ]
+	},{
+		"name":"Seema Kumari",
+		"image":"images/aps-family/Seema-Kumari.jpg",
+		"qualification":"B.A.",
+		"designation":"Teacher",
+		"email":"seemakumari17396@gmail.com"
+
+    },{
+		"name":"Jhunko Kumari",
+		"image":"images/aps-family/Jhunko-Kumari.jpg",
+		"qualification":"MA, BED, PGT",
+		"designation":"Teacher",
+		"email":"jhunkokr2016@gmail.com"
+    },{
+		"name": "Shweta Kumari",
+		"image":"images/aps-family/Shweta-Kumari.jpg",
+		"qualification":"M.A., B.Ed",
+		"designation":"Teacher",
+		"email":"shwetakumari8686@gmail.com"
+	},{
+		"name": "Rajesh Kumar Tiwari",
+		"image":"images/aps-family/upload-image.png",
+		"qualification":"B.Com.",
+		"designation":"Teacher",
+		"email":"rajeshtivari1991@gmail.com"
+	},{
+		"name": "Mithun Kumar Poddar",
+		"image":"images/aps-family/upload-image.png",
+		"qualification":"M.Com., B.Ed",
+		"designation":"Teacher",
+		"email":""
+	},{
+		"name": "Rifat Shaheen",
+		"image":"images/aps-family/rifat.jpg",
+		"qualification":"B.Com",
+		"designation":"Teacher",
+		"email":"rifatiraqui02@gmail.com"
+	}
+]
