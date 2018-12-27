@@ -155,7 +155,9 @@ apsApp.run(function($rootScope,$location,ngMeta){
 apsApp.controller('myController',function($scope, $http){
 	
 	/* School Notice Board */
-	$scope.notice=['Admission for class NUR. to VII for session 2019-2020 will start from 03 January 2019.', 'Required English, Science & Sports teacher for session 2019-20120.'];
+	$scope.notice=['Admission open for academic session 2019-2020 for class NUR. - VIII', 
+                   'Required Science, Computer & Sports  teacher for session 2019-20120.'
+                  ];
 	
 	/* End School Notice Board */
 	
