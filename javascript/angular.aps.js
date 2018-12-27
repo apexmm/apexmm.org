@@ -156,7 +156,7 @@ apsApp.controller('myController',function($scope, $http){
 	
 	/* School Notice Board */
 	$scope.notice=['Admission open for academic session 2019-2020 for class NUR. - VIII', 
-                   'Required Science, Computer & Sports  teacher for session 2019-20120.'
+                   'Required Science, Computer & Sports  teacher for session 2019-2020.'
                   ];
 	
 	/* End School Notice Board */
