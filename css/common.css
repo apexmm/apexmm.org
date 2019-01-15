@@ -66,10 +66,12 @@ th{background:#3E8F3E;color:#FFF;padding:5px;}
 tr:nth-child(even) {background: #C4E4A1;}
 tr:nth-child(odd) {background: #DCF7C8;}
 .picsCol, .videosCol{width:218px;float:left;margin: 5px;cursor:pointer;}
+/*Picture gallery*/
+
 
 h1{text-transform:uppercase;font-weight:bold;color:#a94442;}
 .thumbnail .caption {color: #00549c;background: #dff0d8;}
-.thumbnail .caption p{margin: 0px;}
+.thumbnail .caption p{margin: 0px;text-align: center;}
 
 #popup{position:fixed;width:100%;height:100%;background:#ccc;opacity: 1;margin:0px;padding:0px;display: none;z-index: 100;}
 #popupContainer{max-width:500px; width:94%; position: fixed;top: 50%; left: 50%;-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%);border: 1px solid black;margin:5px;background:#ffeb3b;}
