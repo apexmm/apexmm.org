@@ -156,7 +156,7 @@ apsApp.controller('myController',function($scope, $http){
 	
 	/* School Notice Board */
 	$scope.notice=[ 'Annual examination for session 2018-2019 will commence from 15th March 2019.',
-                    'Admit card for annual examination 2018-2019 will be distributed between 21 February 2019 to 05 March 2019.'
+                    'Admit card for annual examination 2018-2019 will be distributed between 21 February 2019 to 05 March 2019.',
                     'Admission open for academic session 2019-2020 for class NUR. - VIII',
                     'Regular classes for session 2019-2020 will commence from 01 April 2019.',
                    'Required English teacher(02) for session 2019-2020.'
