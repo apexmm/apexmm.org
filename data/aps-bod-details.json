@@ -23,13 +23,6 @@
         "qualification":"B.A.",
         "designation":"Secretary",
         "email":" "
-    },
-    {
-        "name":"Vishal Nath Routh",
-        "image":"images/aps-family/Vishal-Nath-Routh.jpg",
-        "qualification":"M.A., M.C.A., ASE-PD",
-        "designation":"Principal",
-        "email":"routhvishu@gmail.com"
     },{
         "name":"Kuldip Kumar",
         "image":"images/aps-family/Kuldip.jpg",
@@ -37,14 +30,14 @@
         "designation":"Vice Principal",
         "email":"kumarkuldip11@gmail.com"
     },{
-        "name":"Pratibha Kumari",
-        "image":"images/aps-family/pratibha-kumari.jpg",
-        "qualification":"P.G., B.Ed.",
+        "name":"Naveen Kumar",
+        "image":"images/aps-family/Naveen.jpg",
+        "qualification":"B.TECH(IT)",
         "designation":"Teacher",
-        "email":"pratibhakri02@gmail.com"
+        "email":"navienkr14@gmail.com"
     },{
         "name":"Vikrant Kumar Agrawal",
-        "image":"images/aps-family/Vikrant-Kumar-Agrawal.JPG",
+        "image":"images/aps-family/Vikrant.jpg",
         "qualification":"B.Com, PTT",
         "designation":"Teacher",
         "email":"vikrantagr11@gmail.com"
@@ -61,36 +54,18 @@
 		"designation":"Teacher",
 		"email":"priyankanagesh23@gmail.com"
     },{
-		"name":"Gulshan Khatun",
-		"image":"images/aps-family/Gulshan-Khatun.jpg",
-		"qualification":"B.A., PTT",
-		"designation":"Teacher",
-		"email":"gulshankhatoon381988@gmail.com"
-    },{
 		"name":"Abhay Chandra Chakrabarty",
 		"image":"images/aps-family/abhay.jpg",
 		"qualification":"M.A., D.Eled(BT).",
 		"designation":"Teacher",
 		"email":"abhaychandrachakrabarty@gmail.com"
     },{
-		"name":"Tanisha Jayswal",
-		"image":"images/aps-family/tanisha.jpg",
-		"qualification":"B.A.",
-		"designation":"Office Coordinator",
-		"email":"tanishajayswal2605@gmail.com"
-	},{
 		"name":"Seema Kumari",
 		"image":"images/aps-family/Seema-Kumari.jpg",
 		"qualification":"B.Com.",
 		"designation":"Teacher",
 		"email":"seemakumari17396@gmail.com"
 
-    },{
-		"name":"Jhunko Kumari",
-		"image":"images/aps-family/Jhunko-Kumari.jpg",
-		"qualification":"MA, BED, PGT",
-		"designation":"Teacher",
-		"email":"jhunkokr2016@gmail.com"
     },{
 		"name": "Shweta Kumari",
 		"image":"images/aps-family/Shweta-Kumari.jpg",
@@ -104,16 +79,29 @@
 		"designation":"Teacher",
 		"email":"rajeshtivari1991@gmail.com"
 	},{
-		"name": "Mithun Kumar Poddar",
-		"image":"images/aps-family/mithun-kumar-poddar.jpg",
-		"qualification":"M.Com., B.Ed",
+        "name": "Rajesh Kumar Mishra",
+		"image":"images/aps-family/rajesh-mishra.jpg",
+		"qualification":"B.P.ED",
 		"designation":"Teacher",
-		"email":"mithunsine.22@gmail.com"
-	},{
+		"email":"rm977569@gmail.com"
+      
+    },{
 		"name": "Rifat Shaheen",
 		"image":"images/aps-family/rifat.jpg",
 		"qualification":"B.Com",
 		"designation":"Teacher",
 		"email":"rifatiraqui02@gmail.com"
-	}
+	},{
+        "name": "Nisha Kumari",
+		"image":"images/aps-family/nisha.jpg",
+		"qualification":"B.A., D.C.A.",
+		"designation":"Office Coordinator",
+		"email":"nishamishra20021993@gmail.com"
+    },{
+        "name": "Amrita Choudhary",
+		"image":"images/aps-family/amrita.jpg",
+		"qualification":"M.A., B.Ed",
+		"designation":"Teacher",
+		"email":"amritabarbi@gmail.com"
+    }
 ]
