@@ -45,6 +45,11 @@
     <script src="javascript/social-share.js"></script>
     <link rel="stylesheet" href="css/common.css" />	
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8C9uwKtM6ikSICjOTxfBo2lcNJ8hhXPs"></script>	
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $("#myModal").modal('show');
+    });
+</script>
 	<base href="/">
 </head>
 <body>
@@ -53,7 +58,35 @@
 		<div data-ng-view></div>
 	</section>
     <div data-ng-include="'page/footer.html'"></div>
-    <div data-ng-include="'page/popups.html'"></div>	
+    <!-- <div data-ng-include="'page/popups.html'"></div>	 -->
     <div data-ng-include="'page/tracking.html'"></div>
+    <!-- The Modal -->
+    <div class="modal text-center" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title ">Interschool Carnival 2K19 </h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+              <h3 class="text-primary"> <strong> Are you ready to rock on ISC 2K19?</strong></h3>
+
+              <p>Babu Ram Mahto Foundation presenting the 04<sup>th</sup> edition of Interschool Carnival this year.</p>
+              <h1 class="text-danger ">Participate and win scholarship of <br> &#8377 01 Lakh. </h1>
+              <p>So what are you waiting for? <a href="https://isc2k19-brmfoundation.herokuapp.com/interschool-carnival" target="_blank" >click here </a> for complete details. </p>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+
+          </div>
+        </div>
+    </div>
 </body>
 </html>
