@@ -155,7 +155,9 @@ apsApp.run(function($rootScope,$location,ngMeta){
 apsApp.controller('myController',function($scope, $http){
 	
 	/* School Notice Board */
-	$scope.notice=[  ];
+	$scope.notice=[ "Interschool Carnival 2K19 Registration Open. Visit: <a href='www.brmfoundation.in'>www.brmfoundation.in</a> for registration", 
+                    "Boys hostel facility will be available from session 2020-2021"
+                  ];
 	
 	/* End School Notice Board */
 	
